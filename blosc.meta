@@ -1,0 +1,26 @@
+;; -*- Hen -*-
+
+((egg "blosc.egg") ; This should never change
+
+ ; List here all the files that should be bundled as part of your egg.  
+
+ (files "blosc.setup" "blosc.meta"  "blosc.scm" "tests")
+
+ ; Your egg's license:
+
+ (license "BSD")
+
+ ; Pick one from the list of categories (see below) for your egg and
+ ; enter it here.
+
+ (category data)
+
+ ; A list of eggs blosc depends on.
+
+ (needs)
+
+ (test-depends test)
+
+ (author "Ivan Raikov")
+
+ (synopsis "Bindings to the Blosc multi-threaded meta-compressor library"))
