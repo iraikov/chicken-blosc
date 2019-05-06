@@ -1,5 +1,5 @@
 
-(use chicken test blosc)
+(import scheme (chicken base) (chicken blob) test blosc)
 
 (initialize!)
 

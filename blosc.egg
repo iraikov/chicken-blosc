@@ -1,0 +1,10 @@
+;; -*- Hen -*-
+
+((synopsis "Bindings to the Blosc multi-threaded meta-compressor library")
+ (license "BSD")
+ (category data)
+ (test-dependencies test)
+ (build-dependencies  srfi-13 compile-file)
+ (author "Ivan Raikov")
+ (components (extension blosc (custom-build "build.sh"))))
+

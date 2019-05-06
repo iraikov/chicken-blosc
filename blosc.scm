@@ -22,10 +22,9 @@ Written for Chicken Scheme by Ivan Raikov.
          max-overhead
          )
 
-(import scheme chicken foreign)
-(require-extension srfi-4)        
-(import (only extras printf))
-;        (only srfi-4 make-u32vector u32vector->list subu8vector blob->u8vector/shared u8vector->blob/shared))
+        (import scheme (except (chicken base) compress) (chicken foreign) (chicken format)
+                (chicken blob) srfi-4)
+
 
 #>
 
